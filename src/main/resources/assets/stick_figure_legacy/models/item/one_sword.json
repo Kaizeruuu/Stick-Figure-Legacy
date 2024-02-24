@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "stick_figure_legacy:item/ome_sword"
+  }
+}

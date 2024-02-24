@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "StickFigureLegacyTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_figure_legacy_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "OneSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minzemint/stickfigurelegacy/item/OneSwordItem.java",
+          "src/main/resources/assets/stick_figure_legacy/models/item/one_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "OneSwordEntityPoisonHit",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_sword_entity_poison_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/minzemint/stickfigurelegacy/procedures/OneSwordEntityPoisonHitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.stick_figure_legacy.stick_figure_legacy_tab": "Stick Figure Legacy Prototype",
+      "item.stick_figure_legacy.one_sword": "One\u0027s Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "stick_figure_legacy",
+    "modName": "Stick Figure Legacy",
+    "version": "1.0.0",
+    "author": "rog, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.minzemint.stickfigurelegacy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
